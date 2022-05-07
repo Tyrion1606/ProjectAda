@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Scr_Mov_n_Contact_tiles",
+  "name": "Scr_Mov_n_Collide_tiles_3pt",
   "tags": [],
   "resourceType": "GMScript",
 }
