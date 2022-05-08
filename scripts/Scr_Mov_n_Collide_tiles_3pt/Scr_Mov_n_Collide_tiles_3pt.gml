@@ -1,11 +1,50 @@
 ///@param tile_map_id (use: layer_tilemap_get_id())
-///@param velocity_array
+///@param velocity
 ///@param tile_size
-function Scr_Mov_n_Collide_tiles_3pt(tile_map_id, tile_size = 32, velocity_array = [5,5]) {
+function Scr_Mov_n_Collide_tiles_3pt(tile_map_id, velocity, tile_size = 32) {
+	
+	var velocity_array = [0,0]
 	
 	//Apenas para facilitar o acesso ao array "Velocidade"
 	var Horizontal = 0;
 	var Vertical = 1;
+	
+	#region Moviment Comands
+	
+		#region Check Keyboard
+		Up = keyboard_check(ord("W"));
+		Down = keyboard_check(ord("S"));
+		Right = keyboard_check(ord("D"));
+		Left = keyboard_check(ord("A"));
+		#endregion
+		
+		#region Move
+	
+		if(Up or Down or Right or Left){
+			if(Up and !Down and !Right and !Left){
+				velocity_array = [0,-velocity];
+			} else if(Up and !Down and Right and !Left){
+				velocity_array = [velocity,-velocity];
+			} else if(Up and !Down and !Right and Left){
+				velocity_array = [-velocity,-velocity];
+			} else if(!Up and Down and !Right and !Left){
+				velocity_array = [0,velocity];
+			} else if(!Up and Down and Right and !Left){
+				velocity_array = [velocity,velocity];
+			} else if(!Up and Down and !Right and Left){
+				velocity_array = [-velocity,velocity];
+			} else if(!Up and !Down and Right and !Left){
+				velocity_array = [velocity,0];
+			} else if(!Up and !Down and !Right and Left){
+				velocity_array = [-velocity,0];
+			}
+		} else {
+			velocity_array = [0,0] 
+		}
+	
+		#endregion
+		
+	#endregion
 	
 	// Move horizontally
 	x += velocity_array[Horizontal];
