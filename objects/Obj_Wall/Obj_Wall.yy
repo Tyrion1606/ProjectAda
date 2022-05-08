@@ -3,7 +3,7 @@
     "name": "Spr_GraySquare",
     "path": "sprites/Spr_GraySquare/Spr_GraySquare.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

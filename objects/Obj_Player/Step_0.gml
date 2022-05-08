@@ -1,2 +1,2 @@
 Scr_Phy_LookingForMouse();
-Scr_Phy_Mov(5);
+Scr_Phy_Mov(PlayerSpeed);
