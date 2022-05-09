@@ -1,2 +1,3 @@
-Scr_Phy_LookingForMouse();
-Scr_Phy_Mov(PlayerSpeed);
+Scr_LookingForMouse();
+id.x = MyBase.x
+id.y = MyBase.y
