@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Scr_Mov_n_Collide_tiles_3pt",
+  "name": "Scr_DirectFollow",
   "tags": [],
   "resourceType": "GMScript",
 }
