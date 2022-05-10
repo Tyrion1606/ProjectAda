@@ -24,11 +24,6 @@ function Scr_Mov_Collide_tiles_2pt(tile_map_id, velocity, tile_size = 32) {
 	var Collide_bottom	= Tile_Collide_at_points(tile_map_id, [bbox_left+velocity, bbox_bottom]	, [bbox_right-velocity, bbox_bottom]);
 	var Collide_top		= Tile_Collide_at_points(tile_map_id, [bbox_left+velocity, bbox_top]	, [bbox_right-velocity, bbox_top]);
 	#endregion
-	show_debug_message(Collide_bottom);
-	show_debug_message(Collide_left);
-	show_debug_message(Collide_right);
-	show_debug_message(Collide_top);
-	
 	
 	#region Setting the Velocity Vector
 	velocity_array[Horizontal] = ((Right and !Collide_right)-(Left and !Collide_left))*velocity;
