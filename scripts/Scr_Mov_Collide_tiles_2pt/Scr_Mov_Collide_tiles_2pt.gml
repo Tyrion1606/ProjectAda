@@ -1,7 +1,9 @@
-///@param tile_map_id (use: layer_tilemap_get_id())
+///@description		This function does a MOVIMENT and a COLLISION system using the vertex of the bbox
+///					as its collision points...
+///					It also includes a "Tile_Collide_at_points" code that scans thense points.
+///@param tile_map_id (use: layer_tilemap_get_id("TileLayerName"))
 ///@param velocity
-///@param tile_size
-function Scr_Mov_Collide_tiles_2pt(tile_map_id, velocity, tile_size = 32) {
+function Scr_Mov_Collide_tiles_2pt(tile_map_id, velocity) {
 	
 	#region Velocity Vector Declaration
 	var velocity_array = [0,0]; // This hill hold the speed that the comands will set to the movement, in a 2D-Vector (ofcurse, this is a 2D Game with 2D Moviment...)

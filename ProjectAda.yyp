@@ -2,19 +2,13 @@
   "resources": [
     {"id":{"name":"Spr_GraySquare","path":"sprites/Spr_GraySquare/Spr_GraySquare.yy",},"order":4,},
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},"order":2,},
-    {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},"order":10,},
-    {"id":{"name":"Spr_GreenSquare","path":"sprites/Spr_GreenSquare/Spr_GreenSquare.yy",},"order":1,},
+    {"id":{"name":"Spr_Background","path":"sprites/Spr_Background/Spr_Background.yy",},"order":10,},
     {"id":{"name":"Obj_Base","path":"objects/Obj_Base/Obj_Base.yy",},"order":5,},
-    {"id":{"name":"Spr_RedSquare","path":"sprites/Spr_RedSquare/Spr_RedSquare.yy",},"order":2,},
     {"id":{"name":"Scr_DirectFollow","path":"scripts/Scr_DirectFollow/Scr_DirectFollow.yy",},"order":4,},
-    {"id":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"order":1,},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":3,},
     {"id":{"name":"GrayTileset","path":"tilesets/GrayTileset/GrayTileset.yy",},"order":0,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"Scr_LookingForMouse","path":"scripts/Scr_LookingForMouse/Scr_LookingForMouse.yy",},"order":0,},
-    {"id":{"name":"Spr_BlueSquare","path":"sprites/Spr_BlueSquare/Spr_BlueSquare.yy",},"order":0,},
-    {"id":{"name":"Scr_CameraZoom","path":"scripts/Scr_CameraZoom/Scr_CameraZoom.yy",},"order":5,},
     {"id":{"name":"Spr_GrayTileMap","path":"sprites/Spr_GrayTileMap/Spr_GrayTileMap.yy",},"order":5,},
     {"id":{"name":"Obj_Weapon","path":"objects/Obj_Weapon/Obj_Weapon.yy",},"order":4,},
     {"id":{"name":"Scr_Phy_LookingForMouse","path":"scripts/Scr_Phy_LookingForMouse/Scr_Phy_LookingForMouse.yy",},"order":3,},
@@ -26,7 +20,6 @@
     {"id":{"name":"Obj_EnemySmall","path":"objects/Obj_EnemySmall/Obj_EnemySmall.yy",},"order":3,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"Spr_PlayerCollisionBase","path":"sprites/Spr_PlayerCollisionBase/Spr_PlayerCollisionBase.yy",},"order":9,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -43,8 +36,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

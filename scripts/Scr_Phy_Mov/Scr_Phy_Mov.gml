@@ -1,3 +1,7 @@
+///@description		This function does a moviment system physics based (simplyfying the
+///					code for a perfect collision)...
+///					It uses a WASD keyboard input and sets the phy_speed_x and phy_speed_x for
+///					each input combinations
 function Scr_Phy_Mov(Velocity){
 		#region Moviment Comands
 	
@@ -37,7 +41,7 @@ function Scr_Phy_Mov(Velocity){
 				phy_speed_y = 0;
 			}
 
-		} else {
+		} else {	// Dont move if no 'WASD' key pressed
 			phy_speed_x = 0; 
 			phy_speed_y = 0; 
 		}
